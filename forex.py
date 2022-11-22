@@ -103,7 +103,7 @@ class TA:
             self.df["trend"][(self.df["delta"] <= self.df["delta"].quantile(0.37)) & (self.df["delta"] < 0)] = -1
             print("\n\nTechnical Analysis Section\n\n")
 
-        '''bollinger bands - m% outside the 2 standard deviation moving average'''
+        '''bollinger bands - measures the % outside the 2 standard deviation moving average'''
         def bb_features(self):
             print(f"doing bollinger bands for {pair}")
             for m in range(2,20):
