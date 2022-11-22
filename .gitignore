@@ -1,0 +1,6 @@
+creds/
+legacy_files/
+Analysis.pbix/
+venv*/
+historical_fx_data.sqlite/
+__pycache__/
